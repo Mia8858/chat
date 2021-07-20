@@ -7,11 +7,11 @@ def read_file(filename):
 	return lines
 
 def convert(lines):
-	new = []
+	new = [] #設清單來儲存
 	person = None #person還沒有設定出來
 	for line in lines:
 		if line == 'Allen':
-			person = 'Allen'
+			person = 'Allen' #設變數來存暫時的東西
 			continue
 		elif line == 'Tom':
 			person = 'Tom'
